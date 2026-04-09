@@ -47,7 +47,7 @@ export default function Footer() {
           </div>
 
           {/* Connect Section */}
-          <div className="footer__col">
+          {/* <div className="footer__col">
             <h4 className="footer__col-title">Connect</h4>
             <nav className="footer__nav">
               <a href="https://github.com/AayushAtMars" target="_blank" rel="noopener noreferrer" className="footer__link footer__link--icon">
@@ -63,7 +63,7 @@ export default function Footer() {
                 <Mail size={14} /> Contact Support
               </a>
             </nav>
-          </div>
+          </div> */}
         </div>
 
         <div className="footer__bottom">
