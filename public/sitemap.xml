@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://aayutools.vercel.app/</loc>
+    <lastmod>2026-03-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <!-- PDF Tools -->
+  <url><loc>https://aayutools.vercel.app/tool/merge-pdf</loc><lastmod>2026-03-22</lastmod><priority>0.8</priority></url>
+  <url><loc>https://aayutools.vercel.app/tool/split-pdf</loc><lastmod>2026-03-22</lastmod><priority>0.8</priority></url>
+  <url><loc>https://aayutools.vercel.app/tool/compress-pdf</loc><lastmod>2026-03-22</lastmod><priority>0.8</priority></url>
+  <url><loc>https://aayutools.vercel.app/tool/pdf-to-word</loc><lastmod>2026-03-22</lastmod><priority>0.8</priority></url>
+  <url><loc>https://aayutools.vercel.app/tool/word-to-pdf</loc><lastmod>2026-03-22</lastmod><priority>0.8</priority></url>
+  <url><loc>https://aayutools.vercel.app/tool/pdf-to-jpg</loc><lastmod>2026-03-22</lastmod><priority>0.8</priority></url>
+  <url><loc>https://aayutools.vercel.app/tool/rotate-pdf</loc><lastmod>2026-03-22</lastmod><priority>0.8</priority></url>
+  <url><loc>https://aayutools.vercel.app/tool/add-watermark-pdf</loc><lastmod>2026-03-22</lastmod><priority>0.8</priority></url>
+  <url><loc>https://aayutools.vercel.app/tool/unlock-pdf</loc><lastmod>2026-03-22</lastmod><priority>0.8</priority></url>
+  <url><loc>https://aayutools.vercel.app/tool/pdf-editor</loc><lastmod>2026-03-22</lastmod><priority>0.8</priority></url>
+
+  <!-- Image Tools -->
+  <url><loc>https://aayutools.vercel.app/tool/compress-image</loc><lastmod>2026-03-22</lastmod><priority>0.9</priority></url>
+  <url><loc>https://aayutools.vercel.app/tool/resize-image</loc><lastmod>2026-03-22</lastmod><priority>0.8</priority></url>
+  <url><loc>https://aayutools.vercel.app/tool/convert-format</loc><lastmod>2026-03-22</lastmod><priority>0.8</priority></url>
+  <url><loc>https://aayutools.vercel.app/tool/remove-background</loc><lastmod>2026-03-22</lastmod><priority>0.9</priority></url>
+  <url><loc>https://aayutools.vercel.app/tool/crop-image</loc><lastmod>2026-03-22</lastmod><priority>0.8</priority></url>
+  <url><loc>https://aayutools.vercel.app/tool/add-watermark-image</loc><lastmod>2026-03-22</lastmod><priority>0.8</priority></url>
+  <url><loc>https://aayutools.vercel.app/tool/bulk-rename</loc><lastmod>2026-03-22</lastmod><priority>0.7</priority></url>
+  <url><loc>https://aayutools.vercel.app/tool/upscale-image</loc><lastmod>2026-03-22</lastmod><priority>0.7</priority></url>
+
+  <!-- Text Tools -->
+  <url><loc>https://aayutools.vercel.app/tool/word-counter</loc><lastmod>2026-03-22</lastmod><priority>0.7</priority></url>
+  <url><loc>https://aayutools.vercel.app/tool/case-converter</loc><lastmod>2026-03-22</lastmod><priority>0.7</priority></url>
+  <url><loc>https://aayutools.vercel.app/tool/diff-checker</loc><lastmod>2026-03-22</lastmod><priority>0.7</priority></url>
+  <url><loc>https://aayutools.vercel.app/tool/lorem-ipsum</loc><lastmod>2026-03-22</lastmod><priority>0.6</priority></url>
+  <url><loc>https://aayutools.vercel.app/tool/markdown-preview</loc><lastmod>2026-03-22</lastmod><priority>0.6</priority></url>
+
+  <!-- Developer Tools -->
+  <url><loc>https://aayutools.vercel.app/tool/json-formatter</loc><lastmod>2026-03-22</lastmod><priority>0.8</priority></url>
+  <url><loc>https://aayutools.vercel.app/tool/base64-encode</loc><lastmod>2026-03-22</lastmod><priority>0.7</priority></url>
+  <url><loc>https://aayutools.vercel.app/tool/url-encoder</loc><lastmod>2026-03-22</lastmod><priority>0.7</priority></url>
+  <url><loc>https://aayutools.vercel.app/tool/hash-generator</loc><lastmod>2026-03-22</lastmod><priority>0.7</priority></url>
+  <url><loc>https://aayutools.vercel.app/tool/uuid-generator</loc><lastmod>2026-03-22</lastmod><priority>0.6</priority></url>
+  <url><loc>https://aayutools.vercel.app/tool/css-minifier</loc><lastmod>2026-03-22</lastmod><priority>0.7</priority></url>
+  <url><loc>https://aayutools.vercel.app/tool/regex-tester</loc><lastmod>2026-03-22</lastmod><priority>0.7</priority></url>
+  <url><loc>https://aayutools.vercel.app/tool/cron-builder</loc><lastmod>2026-03-22</lastmod><priority>0.6</priority></url>
+
+  <!-- Design Tools -->
+  <url><loc>https://aayutools.vercel.app/tool/color-palette</loc><lastmod>2026-03-22</lastmod><priority>0.8</priority></url>
+  <url><loc>https://aayutools.vercel.app/tool/gradient-generator</loc><lastmod>2026-03-22</lastmod><priority>0.8</priority></url>
+  <url><loc>https://aayutools.vercel.app/tool/box-shadow</loc><lastmod>2026-03-22</lastmod><priority>0.7</priority></url>
+  <url><loc>https://aayutools.vercel.app/tool/border-radius</loc><lastmod>2026-03-22</lastmod><priority>0.6</priority></url>
+  <url><loc>https://aayutools.vercel.app/tool/font-pairing</loc><lastmod>2026-03-22</lastmod><priority>0.6</priority></url>
+  <url><loc>https://aayutools.vercel.app/tool/svg-to-png</loc><lastmod>2026-03-22</lastmod><priority>0.7</priority></url>
+
+  <!-- Converter Tools -->
+  <url><loc>https://aayutools.vercel.app/tool/unit-converter</loc><lastmod>2026-03-22</lastmod><priority>0.7</priority></url>
+  <url><loc>https://aayutools.vercel.app/tool/currency-converter</loc><lastmod>2026-03-22</lastmod><priority>0.7</priority></url>
+  <url><loc>https://aayutools.vercel.app/tool/timezone-converter</loc><lastmod>2026-03-22</lastmod><priority>0.7</priority></url>
+  <url><loc>https://aayutools.vercel.app/tool/number-base</loc><lastmod>2026-03-22</lastmod><priority>0.6</priority></url>
+  <url><loc>https://aayutools.vercel.app/tool/video-to-mp3</loc><lastmod>2026-03-22</lastmod><priority>0.8</priority></url>
+  <url><loc>https://aayutools.vercel.app/tool/qr-code</loc><lastmod>2026-03-22</lastmod><priority>0.9</priority></url>
+</urlset>

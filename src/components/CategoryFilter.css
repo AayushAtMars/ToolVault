@@ -1,0 +1,105 @@
+.filters {
+  padding: 0 0 32px;
+  position: relative;
+  background: var(--bg);
+  z-index: 10;
+}
+
+.filters__scroll {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  padding: 4px 0;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  position: relative;
+}
+
+.filters__scroll::-webkit-scrollbar {
+  display: none;
+}
+
+/* 🎭 Scroll Masks: Indicates more content on the sides */
+.filters::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 32px;
+  width: 40px;
+  background: linear-gradient(to right, transparent, var(--bg));
+  pointer-events: none;
+  z-index: 2;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.filters:hover::after {
+  opacity: 1;
+}
+
+.filters__pill {
+  flex-shrink: 0;
+  padding: 8px 18px;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: var(--radius-pill);
+  border: 1px solid var(--border);
+  color: var(--text-secondary);
+  background: var(--surface);
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  white-space: nowrap;
+  user-select: none;
+}
+
+.filters__pill:hover {
+  border-color: var(--accent-alt);
+  color: var(--accent-alt);
+  background: rgba(37, 99, 235, 0.04);
+  transform: translateY(-1px);
+}
+
+.filters__pill--active {
+  background: var(--accent-alt);
+  color: #FFFFFF;
+  border-color: var(--accent-alt);
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.2);
+}
+
+.filters__pill--active:hover {
+  background: var(--accent-alt);
+  color: #FFFFFF;
+  border-color: var(--accent-alt);
+  opacity: 0.9;
+  transform: none;
+}
+
+/* 📱 Mobile Specifics */
+@media (max-width: 768px) {
+  .filters {
+    position: sticky;
+    top: calc(var(--nav-height) - 1px);
+    padding: 12px 0 16px;
+    margin-bottom: 24px;
+    border-bottom: 1px solid var(--border);
+    background: var(--nav-bg);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+  }
+
+  .filters__scroll {
+    /* Allow scrolling past the container padding */
+    margin: 0 -16px; 
+    padding: 4px 24px;
+  }
+
+  .filters__pill {
+    padding: 10px 20px;
+    font-size: 13px;
+  }
+
+  .filters::after {
+    bottom: 16px;
+    width: 60px;
+  }
+}

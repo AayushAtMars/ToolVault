@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#60a5fa" />
+      <stop offset="100%" stop-color="#1d4ed8" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3b82f6" />
+      <stop offset="100%" stop-color="#93c5fd" />
+    </linearGradient>
+  </defs>
+  <!-- Base background (transparent for favicon, but let's give it a slight rounded dark slate backdrop if we wanted) -->
+  <!-- We'll keep it transparent to fit naturally in tabs -->
+  
+  <!-- Outer glowing hexagon / shield -->
+  <path d="M128 16 L224 72 L224 184 L128 240 L32 184 L32 72 Z" fill="url(#blueGrad)" />
+  <path d="M128 32 L210 80 L210 176 L128 224 L46 176 L46 80 Z" fill="#111118" />
+
+  <!-- Abstract 'A' shaped tool inside -->
+  <path d="M128 64 L72 176 L112 176 L128 136 L144 176 L184 176 Z" fill="url(#accentGrad)" />
+  <!-- Inner cutout for 'A' -->
+  <path d="M128 100 L116 130 L140 130 Z" fill="#111118" />
+</svg>
